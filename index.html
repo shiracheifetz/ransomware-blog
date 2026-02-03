@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ransomware Blog</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico.svg">
+
+    <style>
+        nav ul {
+            display: flex;          
+            list-style-type: none;   
+            gap: 20px;               
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black
+        }
+    </style>
 </head>
 <body>
     <header>
-        <ul>
-            <li>Jane Doe's Blog</li>
-            <li><a href="about.html" target="_blank">About Us</a></li>
-        </ul>
-         
+        <nav>
+            <ul>
+                <li><a href="index.html">Jane Doe's Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#stayUpdated">Stay Updated</a></li>
+            </ul>
+        </nav>
     </header>
 
     <h1>Evolution of Ransomware and How to Protect Yourself</h1>
@@ -104,7 +120,7 @@
     <hr>
 
     <footer>
-        <p>Stay Updated</p>
+        <h3 id="stayUpdated">Stay Updated</h3>
         <p>Want to know when a new blog is posted? Sign up below to receive updates directly to your email:</p>
 
         <form>
