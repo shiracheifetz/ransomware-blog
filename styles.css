@@ -1,5 +1,6 @@
 :root {
     --primary-bg-color: rgb(167, 190, 238);
+    --text-color: rgb(25, 78, 193);
 }
 
 body {
@@ -28,6 +29,19 @@ h3 {
 p {
     text-align: justify;
     line-height: 1.2;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+a:visited {
+    color: rgb(20, 60, 145);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 button {
