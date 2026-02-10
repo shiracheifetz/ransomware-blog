@@ -88,7 +88,7 @@ header {
     margin-bottom: 10px;
 }
 
-.sidebar a {
+.sidebar a:link, .sidebar a:visited {
     text-decoration: none;
     color: var(--secondary-color);
     display: block;
